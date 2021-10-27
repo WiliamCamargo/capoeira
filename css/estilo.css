@@ -121,3 +121,16 @@ nav ul li a:hover {
     padding: 10px;
     align-items: center;
 }
+
+#mestre_caixa-pai {
+    display: flex;
+}
+
+.mestre02_texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.mestre02_article {
+    width: 60%;
+}
