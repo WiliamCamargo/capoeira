@@ -92,11 +92,11 @@ q {
   align-self: flex-start;
 }
 
-#historia_table {
+/* #historia_table {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-}
+} */
 
 #historia_table tr,
 #historia_table th {
