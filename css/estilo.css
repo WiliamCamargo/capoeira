@@ -1,152 +1,110 @@
 @charset "UTF-8";
 
-body {
-  background-color: #fff;
-  width: 1024px;
-  margin: 0px auto 0px auto;
-}
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400&display=swap');
 
-header hgroup {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-hgroup h1,
-hgroup h2 {
-  margin: 6px 0 0 0;
-}
-
-header ul {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-header li {
-  list-style: none;
-}
-
-header li a {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+*{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   text-decoration: none;
 }
 
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+body{
+  width: 1024px;
+  margin: 0 auto;
 }
 
-footer small {
+.w-1-de-2{
   width: 50%;
-  text-align: center;
 }
 
-footer nav {
-  display: flex;
-  width: 50%;
-  justify-content: flex-end;
-  padding-right: 20px;
+.w-2-de-2{
+  width: 100%;
 }
 
-footer a {
-  font-size: 11px;
-}
-
-article,
-aside {
-  margin: 20px;
-}
-
-.citacao {
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-q {
-  font-size: 13.5px;
-}
-
-#titulo {
-  text-align: center;
-}
-
-.texto-pai {
-  display: flex;
-}
-
-.texto {
-  width: 45%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 20px;
-}
-
-.historia_h2 {
-  align-self: flex-start;
-}
-
-/* #historia_table {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-} */
-
-#historia_table tr,
-#historia_table th {
-  border: solid 1px;
-}
-
-#historia_table tr,
-#historia_table td {
-  border: solid 1px;
-}
-
-/*CSS exclusivo da pagina mestre*/
-#mestre_texto-pai {
-  display: flex;
-}
-
-.mestre_texto {
-  display: flex;
-  flex-direction: column;
-}
-
-#mestre_caixa-pai {
-  display: flex;
-}
-
-#mestre_article {
-  width: 60%;
-}
-
-#mestre_aside {
+.w-1-de-3{
   width: 30%;
 }
 
-.mestre_aside-caixa {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 10px;
-  align-items: center;
+.w-2-de-3{
+  width: 60%;
 }
 
-#mestre_caixa-pai {
+.w-3-de-3{
+  width:90%;
+}
+
+.flex{
   display: flex;
 }
 
-.mestre02_texto {
-  display: flex;
+.flex-vertical{
   flex-direction: column;
 }
 
-.mestre02_article {
-  width: 60%;
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.flex-j-evenly{
+  justify-content: space-evenly;
+}
+
+.flex-j-around{
+  justify-content: space-around;
+}
+
+.flex-j-between{
+  justify-content: space-between;
+}
+
+.flex-reverse{
+  flex-direction: row-reverse;
+}
+
+.m-none{
+  margin: 0;
+}
+
+.m-vertical_x-pequeno{
+  margin: 10px 0;
+}
+
+.p-around_x-pequeno{
+  padding: 10px;
+}
+
+.p-vertical_pequeno{
+  padding: 20px 0;
+}
+
+.flex-a-end{
+  align-items: flex-end;
+}
+
+.flex-a-center{
+  align-items: center;
+}
+
+.oculto{
+  display: none;
+}
+
+.l-style-none{
+  list-style: none;
+}
+
+.menu h4{
+  font-size: 22px;
+}
+
+/*Home*/
+#index hgroup{
+  font-size: 42px;
+}
+
+#index q{
+  font-size: 25px;
+}
+
+#index div small{
+  font-size: 15px;
 }
