@@ -135,7 +135,7 @@ body{
 
 .citacao{
   font-size: 18px;
-  height: 100px;
+  height: 130px;
 }
 
 /*Tables*/
@@ -169,7 +169,7 @@ th{
   font-size: 25px;
 }
 
-#index div small, .citacao small{
+.autor{
   font-size: 15px;
 }
 
