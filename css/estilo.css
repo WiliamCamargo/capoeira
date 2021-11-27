@@ -85,6 +85,10 @@ body{
   padding: 10px;
 }
 
+.p-around_pequeno{
+  padding: 20px;
+}
+
 .p-vertical_pequeno{
   padding: 20px 0;
 }
@@ -174,6 +178,10 @@ th{
 }
 
 /*Música*/
-.card-musica{
+.card-musica, .card-curiosidades{
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.card-curiosidades{
+  padding: 15px;
 }
