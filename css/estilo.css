@@ -73,6 +73,10 @@ body{
   flex-direction: row-reverse;
 }
 
+.align-s-center{
+  align-self: center;
+}
+
 .m-none{
   margin: 0;
 }
@@ -191,7 +195,13 @@ th{
   margin: 5px 0;
 }
 
-.form input, button{
+.form input, button, textarea{
   padding: 5px 0;
   font-size: 20px;
+}
+
+/* Quem somos */
+
+.quem-somos{
+  height: 550px;
 }
