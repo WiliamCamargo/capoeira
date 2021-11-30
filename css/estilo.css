@@ -185,3 +185,13 @@ th{
 .card-curiosidades{
   padding: 15px;
 }
+
+/*Formulario*/
+.form label, button{
+  margin: 5px 0;
+}
+
+.form input, button{
+  padding: 5px 0;
+  font-size: 20px;
+}
