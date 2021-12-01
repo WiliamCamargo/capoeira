@@ -191,7 +191,7 @@ th{
   background-color: #fde002;
 }
 
-.cabecalho h1, .cabecalho h2, .cabecalho a, .citacao blockquote, .citacao p{
+.cabecalho h1, .cabecalho h2, .cabecalho a, .citacao blockquote, .citacao p, button{
   color: white;
 }
 
@@ -234,6 +234,13 @@ th{
 .form input, button, textarea{
   padding: 5px 0;
   font-size: 20px;
+}
+
+button{
+  background-color: #e90305;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
 }
 
 /* Quem somos */
