@@ -40,8 +40,9 @@ td{
 }
 
 th{
-  background-color: black;
+  background-color: #e90305;
   color: #fff;
+  height: 45px;
 }
 
 .w-1-de-5{
@@ -183,9 +184,6 @@ th{
 .citacao{
   font-size: 18px;
   height: 130px;
-}
-
-.citacao-background_color{
   background-color: #e90305;
 }
 
@@ -193,17 +191,22 @@ th{
   background-color: #fde002;
 }
 
-.cabecalho h2, .cabecalho a, .citacao blockquote{
+.cabecalho h1, .cabecalho h2, .cabecalho a, .citacao blockquote, .citacao p{
   color: white;
 }
 
-.referencias a{
+.referencias a, .mestres a{
   color: #001274;
 }
 
 /*Home*/
 #index hgroup{
   font-size: 42px;
+
+}
+
+#index hgroup h1, #index hgroup h2{
+  color: #fde002;
 }
 
 #index q, .titulo{
