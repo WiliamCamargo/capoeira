@@ -13,6 +13,37 @@ body{
   font-size: 20px;
 }
 
+footer, footer a{
+  background-color: #001274;
+  color: #fff;
+}
+
+h2, h3, h4, h5{
+  color: #027e10;
+}
+
+/*Tables*/
+table{
+  border-collapse: collapse;
+}
+
+tr:nth-child(odd){
+  background-color: lightgray;
+}
+
+tr:nth-child(even){
+  background-color: whitesmoke;
+}
+
+td{
+  height: 40px;
+}
+
+th{
+  background-color: black;
+  color: #fff;
+}
+
 .w-1-de-5{
   width: 20%;
 }
@@ -81,6 +112,10 @@ body{
   margin: 0;
 }
 
+.p-none{
+  padding: 0;
+}
+
 .m-vertical_x-pequeno{
   margin: 10px 0;
 }
@@ -97,7 +132,7 @@ body{
   padding: 20px 0;
 }
 
-.p-horizontal_pequeno{
+.p-horizontal_pequeno, footer{
   padding: 0 20px;
 }
 
@@ -133,6 +168,10 @@ body{
   font-size: 22px;
 }
 
+.menu h4, .menu a, .menu p{
+  color: black;
+}
+
 .text-a-center, td:first-child{
   text-align: center;
 }
@@ -146,26 +185,20 @@ body{
   height: 130px;
 }
 
-/*Tables*/
-table{
-  border-collapse: collapse;
+.citacao-background_color{
+  background-color: #e90305;
 }
 
-tr:nth-child(odd){
-  background-color: lightgray;
+.cabecalho{
+  background-color: #fde002;
 }
 
-tr:nth-child(even){
-  background-color: whitesmoke;
+.cabecalho h2, .cabecalho a, .citacao blockquote{
+  color: white;
 }
 
-td{
-  height: 40px;
-}
-
-th{
-  background-color: black;
-  color: #fff;
+.referencias a{
+  color: #001274;
 }
 
 /*Home*/
